@@ -1,0 +1,178 @@
+body{
+
+  margin:auto 0;
+}
+
+
+.green{
+display: grid;
+grid-template-rows: repeat(1,1fr);
+grid-template-columns: repeat(4,2fr);
+align-items: center;
+}
+
+
+.zone {
+
+     /*padding:30px 50px;
+    margin:40px 60px;
+    cursor:pointer;
+   display:inline-block;*/
+    color:#FFF;
+    font-size: 1.5rem;
+    border-radius:4px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+
+
+}
+
+a{
+
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 5px 4px 5px 4px;
+
+}
+
+.box:hover {
+    -webkit-transform:rotate(-7deg);
+    -moz-transform:rotate(-7deg);
+    -o-transform:rotate(-7deg);
+    transform:rotate(-7deg);
+  }
+
+.zone:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+/*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
+/***********************************************************************
+ *  Green Background
+ **********************************************************************/
+.green{
+    
+    background-color: #7395AE;
+
+   /* background-color: #7395AE;  Old browsers 
+    background: -moz-linear-gradient(top, #56B870 0%, #a5c956 100%); /* FF3.6+ */
+    /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#56B870), color-stop(100%,#a5c956)); /* Chrome,Safari4+ */
+   /* background: -webkit-linear-gradient(top, #56B870 0%,#a5c956 100%); /* Chrome10+,Safari5.1+ */
+   /* background: -o-linear-gradient(top, #56B870 0%,#a5c956 100%); /* Opera 11.10+ */
+   /* background: -ms-linear-gradient(top, #56B870 0%,#a5c956 100%); /* IE10+ */
+    /*background: linear-gradient(top, #56B870 0%,#a5c956 100%); /* W3C */
+
+}
+
+
+.cover:hover{
+
+z-index:1;
+transform: scale(0.5);
+transition: 1s;
+box-shadow: 0 25px 40px rgba(0,0,0,0.5);
+
+}
+
+
+
+
+
+/***********************************************************************
+ *  Red Background
+ **********************************************************************/
+.red{
+    background: #B1A296;
+    opacity: 100px; /* Old browsers */
+      /* background: -moz-linear-gradient(top, #C655BE 0%, #cf0404 100%); /* FF3.6+ */
+      /* background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#C655BE), color-stop(100%,#cf0404)); /* Chrome,Safari4+ */
+      /* background: -webkit-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* Chrome10+,Safari5.1+ */
+      /* background: -o-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* Opera 11.10+ */
+      /* background: -ms-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* IE10+ */
+      /* background: linear-gradient(top, #C655BE 0%,#cf0404 100%); /* W3C */
+}
+
+.cover{
+
+width: 550px;
+
+}
+.red{
+ 
+    display: grid; 
+    grid-template-rows: repeat(1,3fr);
+}
+
+/***********************************************************************
+ *  Yellow Background
+ **********************************************************************/
+.yellow{
+    background: #5D5C61; /* Old browsers */
+   /* background: -moz-linear-gradient(top, #F3AAAA 0%, #febf04 100%); /* FF3.6+ */
+    /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F3AAAA), color-stop(100%,#febf04)); /* Chrome,Safari4+ */
+   /* background: -webkit-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* Chrome10+,Safari5.1+ */
+   /* background: -o-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* Opera 11.10+ */
+   /* background: -ms-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* IE10+ */
+    /*background: linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* W3C */
+}
+
+
+.progrid{
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat( auto-fill, minmax(250px, 1fr) );
+    grid-template-rows: repeat( auto-fill, minmax(250px, 1fr) );
+    
+}
+
+.box > img{
+
+  width: 100%;
+}
+.box{
+  background-color: #7395AE;
+  padding: 20px;
+  margin:20px;
+}
+
+/***********************************************************************
+ *  Blue Background
+ **********************************************************************/
+.blue{
+    background: #B1A296; /* Old browsers */
+   /* background: -moz-linear-gradient(top, #7abcff 0%, #60abf8 44%, #4096ee 100%); /* FF3.6+ */
+   /* background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7abcff), color-stop(44%,#60abf8), color-stop(100%,#4096ee)); /* Chrome,Safari4+ */
+   /* background: -webkit-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Chrome10+,Safari5.1+ */
+    /*background: -o-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Opera 11.10+ */
+    /*background: -ms-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* IE10+ */
+    /*background: linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* W3C */
+}
+
+.blue{
+
+    display: grid;
+    grid-template-rows:repeat(1,2fr);
+    justify-content: center;
+
+}
+
+
+.blue{
+
+  color: black;
+
+}
+
+/* Cover*/
+
+.container{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
